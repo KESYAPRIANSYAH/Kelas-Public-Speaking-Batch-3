@@ -2,35 +2,32 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Josefin Sans", sans-serif;
-  box-sizing: border-box;
-  overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto",  sans-serif;
+  font-family: "poppins",  sans-serif;
 }
 .header {
   background-image: url("/img/Background_1.png");
   background-size: cover;
-  /* height: 100vh;
-  width: 100%; */
-  margin-top: 52px;
 }
 #carouselExampleControls {
   padding: 60px;
 }
-  .ijo {
-    color: #96FF00;
-  }
+.ijo {
+  color: #96ff00;
+}
 .slider {
   background-color: #eeeeee;
 }
-.Caradaftar {
-  margin-top: 100px;
-}
+
 .Caradaftar h1 {
+  margin-top: 100px;
   text-align: center;
-  font-size: 35px;
+  font-size: 24px;
+}
+.rest p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .foto {
@@ -46,26 +43,38 @@
 }
 
 .home {
-  padding-top: 100px;
   text-align: center;
   color: white;
-  margin: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
+
 .home h1 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
 }
 .home p {
-  font-size: 25px;
+  margin: 0;
+  margin-top: 20px;
+}
+.home p {
+  font-size: 20px;
+  font-weight: normal;
+}
+.btn {
+  width: 200px;
+  height: auto;
 }
 .tujuankelas {
   margin-top: 100px;
 }
 .tujuan h1 {
   margin-top: 100px;
-  font-size: 38px;
+  font-size: 24px;
   text-align: center;
-  color: #0079d9;
 }
 #containertujuan {
   margin-top: 100px;
@@ -79,9 +88,11 @@
 }
 
 .benefit {
+  height: 100vh;
   background-color: #068fff;
   color: white;
 }
+
 .isibenefit {
   display: flex;
   padding: 40px;
@@ -97,16 +108,43 @@
   margin-left: 20px;
 }
 .pembungkusbenefit {
-  margin: 100px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.benefit h1 {
-  font-size: 30px;
-  font-weight: bold;
+.pembungkusbenefit h1 {
+  font-size: 24px;
   text-align: center;
   margin-top: 80px;
 }
+.pembungkusbenefit p {
+  font-size: 18px;
+}
+
+.upgradediri {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+.upgradediri h1 {
+  margin-top: 100px;
+  font-size: 24px;
+  text-align: center;
+}
+
 .after {
+  margin-top: 100px;
+}
+.aftersales h1 {
+  font-size: 24px;
+  text-align: center;
   margin-top: 100px;
 }
 .after p {
@@ -124,15 +162,6 @@
   scrollbar-width: none; /* Untuk Firefox */
 }
 
-.containerrr .card {
-  margin-top: 20px;
-  display: inline-block;
-  background-color: white;
-  min-width: 384px;
-  height: 476px;
-  border-radius: 4px;
-}
-
 .containerrr::-webkit-scrollbar {
   display: none;
 }
@@ -140,16 +169,13 @@
   margin-top: 100px;
 }
 .testimoni h1 {
-  font-size: 35px;
+  font-size: 24px;
   text-align: center;
 }
 #ulasan {
   margin-top: 50px;
 }
-.gambar {
-  width: 100%;
-  height: 240px;
-}
+
 .gambar img {
   width: 100%;
   height: 240px;
@@ -174,12 +200,24 @@
   font-size: 18px;
 }
 
-.jumbotron {
-  margin-top: 100px;
+/* udah kenal bebe */
+.hero {
+  background-color: #0066ff;
+  color: white;
+}
+.kenalan h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.kenalan p {
+  font-size: 18px;
+  font-weight: normal;
 }
 .kenalan {
   margin-top: 80px;
 }
+
+/* udah kenal bebe */
 
 .rest {
   text-align: center;
@@ -197,12 +235,12 @@
   justify-content: center;
 }
 .nav-item {
-  font-size: 20px;
+  color: white;
 }
 
 .logo {
   height: auto;
-  width: 300px;
+  width: 150px;
   margin-left: 60px;
 }
 .aset1 {
@@ -282,10 +320,6 @@
   margin: 500px;
 }
 
-.hero {
-  background-color: #0066ff;
-  color: white;
-}
 @media screen and (max-width: 1143px) {
   .home {
     padding-top: 100px;
@@ -336,7 +370,7 @@
   }
   .nav-item {
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 100;
   }
   .aftersales img {
     width: 600px;
@@ -414,11 +448,9 @@
   .profil {
     padding-top: 50px;
   }
-  /* .navbar {
-    height: 60px;
-  } */
+
   .logo {
-    width: 150px;
+    width: 120px;
     height: auto;
     margin-left: 0px;
   }
@@ -482,6 +514,7 @@
     height: auto;
     text-align: center;
   }
+
   .home {
     padding-top: 100px;
     text-align: center;
@@ -528,8 +561,10 @@
     align-items: center;
     margin-left: 10px;
   }
-  .isitujuan p { font-size:10px;}
-    
+  .isitujuan p {
+    font-size: 10px;
+  }
+
   .collapse {
     margin-left: 0px;
   }

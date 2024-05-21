@@ -12,9 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="css/Card.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
+    <script src="nav.js"></script>
     <!-- <navbar> -->
 
     <nav class="navbar shadow-sm fixed-top navbar-expand-lg navbar-dark">
@@ -28,19 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#benefit">Benefit</a>
+              <a class="nav-link" href="#benefit" tabindex="-1" aria-disabled="true">Benefit</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#after" tabindex="-1" aria-disabled="true">After Sales</a>
+              <a class="nav-link" href="#after" tabindex="-1" aria-disabled="true">After Sales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#testi" tabindex="-1" aria-disabled="true">Tentang </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#webinar" tabindex="-1" aria-disabled="true">Webinar Sebelumnya</a>
+              <a class="nav-link" href="#testi" tabindex="-1" aria-disabled="true">Tentang </a>
             </li>
           </ul>
         </div>
@@ -53,10 +52,16 @@
 
     <div class="header" id="home">
       <div class="home">
-        <h1 data-aos="fade-down" data-aos-duration="1500">Strategi <span class="ijo">Menguasai</span> Skill Public Speaking <span class="ijo">hingga PEDE</span> dalam waktu <span class="ijo">3 Hari</span></h1>
-        <p data-aos="fade-down" data-aos-duration="1500">Yang dipelajari dan praktekan: Mindset, Basic Public Speaking, Teknik Teknik Dasar, Body Language, Cara membuka presentasi yang elegan dan cara menutup presentasi yang berkesan</p>
+        <h1 data-aos="fade-down" data-aos-duration="1500">
+          Strategi <span class="ijo">Menguasai</span> Skill Public Speaking<br />
+          <span class="ijo">hingga PEDE</span> dalam waktu <span class="ijo">3 Hari</span>
+        </h1>
+        <p data-aos="fade-down" data-aos-duration="1500">
+          Yang dipelajari dan praktekan: Mindset, Basic Public Speaking, Teknik Teknik Dasar, Body Language,<br />
+          Cara membuka presentasi yang elegan dan cara menutup presentasi yang berkesan
+        </p>
         <div class="btn container-fluid" data-aos="fade-down" data-aos-duration="1500" style="padding-top: 50px" data-aos="fade-down" data-aos-duration="1500">
-          <a class="btn btn-light btn-lg text-primary mr-3 mw-25 mh-25 rounded-50" href="#daftar" role="button">Daftar Sekarang</a>
+          <a class="btn btn-light btn-lg text-primary rounded-50" href="#daftar" role="button">Daftar Sekarang</a>
         </div>
       </div>
     </div>
@@ -68,19 +73,19 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/mindset_icon.png" alt="" />
                 <p>Mindset PEDE</p>
               </div>
             </div>
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/teknikPS.png" alt="" />
                 <p>Teknik Dasar Public Speaking</p>
               </div>
             </div>
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/tutorBasicPS.png" alt="" />
                 <p>Basic Public Speaking</p>
               </div>
@@ -90,19 +95,19 @@
         <div class="container" id="containertujuan">
           <div class="row">
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/gesture.png" alt="" />
                 <p>Body Language</p>
               </div>
             </div>
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/open_presentasi.png" alt="" />
                 <p>Cara Membuka Presentasi</p>
               </div>
             </div>
             <div class="col">
-              <div class="isitujuan"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
                 <img src="/asset/closing_presentasi.png" alt="" />
                 <p>Cara Menutup Presentasi</p>
               </div>
@@ -117,8 +122,8 @@
     <!-- benefit -->
 
     <div class="benefit" id="benefit">
-      <h1>Benefit yang didapatkan</h1>
       <div class="pembungkusbenefit">
+        <h1>Benefit yang didapatkan</h1>
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -130,29 +135,28 @@
             </div>
             <div class="col-md-6">
               <!-- Menggunakan col-md-6 untuk tampilan desktop dan tablet -->
-              <div class="isibenefit"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isibenefit" data-aos="fade-down" data-aos-duration="1500">
                 <img src="./asset/check 5.png" alt="" />
                 <p>Menguasai Teknik Dasar Public Speaking</p>
               </div>
             </div>
             <div class="col-md-6">
               <!-- Menggunakan col-md-6 untuk tampilan desktop dan tablet -->
-              <div class="isibenefit"
-              <div class="isitujuan" data-aos="fade-down" data-aos-duration="1500">
+              <div class="isibenefit" data-aos="fade-down" data-aos-duration="1500">
                 <img src="./asset/check 5.png" alt="" />
                 <p>Menguasai Gesture Tubuh</p>
               </div>
             </div>
             <div class="col-md-6">
               <!-- Menggunakan col-md-6 untuk tampilan desktop dan tablet -->
-              <div class="isibenefit"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isibenefit" data-aos="fade-down" data-aos-duration="1500">
                 <img src="./asset/check 5.png" alt="" />
                 <p>Menguasai Cara Membuka Presentasi</p>
               </div>
             </div>
             <div class="col-md-6">
               <!-- Menggunakan col-md-6 untuk tampilan desktop dan tablet -->
-              <div class="isibenefit"data-aos="fade-down" data-aos-duration="1500">
+              <div class="isibenefit" data-aos="fade-down" data-aos-duration="1500">
                 <img src="./asset/check 5.png" alt="" />
                 <p>Menguasai Cara Menutup Presentasi</p>
               </div>
@@ -174,24 +178,20 @@
             <div class="col-md-6 upgradediri" data-aos="fade-down" data-aos-duration="1500"><img src="./asset/bebe2.png" alt="" class="profil1" /></div>
             <div class="col-md-6">
               <div class="kenalan">
-                <h1 class="hsatu fw-bold" data-aos="fade-down" data-aos-duration="1600">Udah Kenal Bebe Belum Nih?</h1>
-                <p class="lead fw-bold ml-5" data-aos="fade-down" data-aos-duration="1700">
+                <h1 data-aos="fade-down" data-aos-duration="1600">Udah Kenal Bebe Belum Nih?</h1>
+                <p data-aos="fade-down" data-aos-duration="1700">
                   Aku Bebe, orang yang dulunya penakut, pendiem, minder, ga percaya diri saat Public Speaking dan Setelah 9 tahun itu, sekarang aku ngerasain Pede saat ngomong di depan banyak orang. Dengan rahasia dan pola ini aku pengen
                   share ke kamu dan pengen sharing bagaimana cara berbicara yang berbeda dari orang lain.
                 </p>
-                <p class="lead fw-bold" data-aos="fade-down" data-aos-duration="1800">Ikut aja kelasnya, siapa tau cocok buat kamu yang lagi memperdalam skill Public Speaking. Salam dari bebe - Abang Public Speaking</p>
+                <p data-aos="fade-down" data-aos-duration="1800">Ikut aja kelasnya, siapa tau cocok buat kamu yang lagi memperdalam skill Public Speaking. Salam dari bebe - Abang Public Speaking</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- <div class="Pamflet" data-aos="fade-up" data-aos-duration="1500" style="margin-top: 50px">
-        <img src="./asset//Pamflet Batch 3 Putih.png" class="w-75 mx-auto d-block" alt="Responsive image" />
-      </div> -->
-
       <!-- isi -->
-      <div class="isi">
+      <div class="upgradediri">
         <h1 data-aos="fade-down" data-aos-duration="1500">Mau Upgrade Diri</h1>
         <div class="row .col-sm-3 d-flex justify-content-center">
           <div class="card m-4" style="width: 25rem" data-aos="fade-down" data-aos-duration="1500">
@@ -208,82 +208,8 @@
 
     <!-- isi  -->
 
-    <!-- benefit -->
-
-    <!-- <div class="benefit" id="benefit">
-      <h1>Benefit Apa Sii Yang Kalian Dapatkan Dari Kelas ini??</h1>
-      <div class="containerrr container">
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web Tutor Pede.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Tutorial Percaya Diri</h5>
-            <p>Paham Dengan Pola Menjadi Pede</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web Tutor Teknik.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Tutorial teknik Public Speaking</h5>
-            <p>Paham Teknik Public Speaking</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web Bebas Bertanya.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Bebas Bertanya</h5>
-            <p>Bebas Tanya Jawab Sepuasnya</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web Sertifikat.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>2 Sertifikat</h5>
-            <p>1.Sertifikat Webinar</p>
-            <p>2.Sertifikat Kelulusan</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web Bonus Rekaman.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Bonus Rekaman Kelas</h5>
-            <p>Kamu mendapatkan Rekaman Kelas</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web E Book 1.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Gratis E-Book</h5>
-            <p>E-Book Afirmasi Positif</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gambar">
-            <img src="/img/Web E-book 2.png" alt="..." />
-          </div>
-          <div class="cardbody">
-            <h5>Gratis E-Book</h5>
-            <p>cara percaya diri dalam public speaking</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="benefit2" id="after">
-      <div class="after" data-aos="fade-down" data-aos-duration="1500">
-        <img src="img/after.png" class="after1" alt="" />
-      </div>
+    <div class="aftersales" id="after">
+      <h1 data-aos="fade-down" data-aos-duration="1500">After Sales</h1>
 
       <div class="row .col-sm-3 d-flex justify-content-center">
         <div class="aftersales"><img src="/img/Web After Sales.png" alt="..." data-aos="fade-down" data-aos-duration="1500" /></div>
@@ -336,239 +262,12 @@
         <!-- </testi3> -->
       </div>
     </div>
-    <div class="apakontenbebe" id="konten">
-      <h1 class="testimoni text-center fw-bold" data-aos="fade-down" data-aos-duration="1500" style="margin-top: 100px">Apa kata mereka tentang konten konten bebe</h1>
-      <p class="bebe" data-aos="fade-down" data-aos-duration="1500" style="text-align: center">
-        Karena di konten konten yang aku sebarkan terbatas dan ga secara mendalam, tapi alhamdulillah nya ada orang orang yang ngabarin lewat DM ke aku bahwa banyak orang yang terbantu dari konten konten yang aku share. alhamdulillah. nah
-        dari situ biar lebih jelas dan detailnya, aku jabarin dan jelasin di webinar ini biar makin PEDE dan aku kasih tau rahasianya bagaimana sih biar jago Public Speaking. bagaimana biar bisa dapet nilai A presentasi di kelas, disukai
-        sama temen temen, dihargai sama temen kelas atau organisasi, menginspirasi banyak orang dan lain lain. nah Kata mereka tentang konten konten aku sebelumnya:
-      </p>
-
-      <div id="carouselControls" class="kontenbebe carousel carousel-dark slide" data-bs-ride="carousel" style="margin: 50px">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be1.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be2.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be3.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be4.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be5.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be6.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be7.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be8.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be9.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be10.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be11.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be12.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be13.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be14.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be15.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be16.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be17.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be18.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be19.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be20.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be21.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be22.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be23.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be24.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be25.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be26.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be27.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be28.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be29.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be30.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be31.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be32.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be33.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be34.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be35.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be36.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="apakontenbebe" id="webinar">
-      <h1 data-aos="fade-down" data-aos-duration="1500">Testimoni Kelas batch 1</h1>
-      <p data-aos="fade-down" data-aos-duration="1500">Mimin Ceritain Nih Pengalaman Temen-Temen Yang Sudah Pernah Ikut kelas Public Speaking sebelum nya</p>
-
-      <div id="carouselControls2" class="kontenbebe carousel carousel-dark slide" data-bs-ride="carousel" style="margin: 50px">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be38.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be39.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be40.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be41.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex justify-content-around">
-              <div class="card" style="width: 18rem">
-                <img src="img/be38.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be39.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be40.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card" style="width: 18rem">
-                <img src="img/be41.jpg" class="card-img-top" alt="..." />
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselControls2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
 
     <!-- cara daftar  -->
-    <div class="Caradaftar" >
+    <div class="Caradaftar">
       <div class="daftar" data-aos="fade-down" data-aos-duration="1500">
-        <div class="rest" data-aos="fade-down" data-aos-duration="1500" ><img src="/img/hargadetail.png" class="img-thumbnail" alt="gambar1" /></div>
-        <h1 data-aos="fade-down" data-aos-duration="1500"id="daftar">Cara Daftar</h1>
+        <div class="rest" data-aos="fade-down" data-aos-duration="1500"><img src="/img/hargadetail.png" class="img-thumbnail" alt="gambar1" /></div>
+        <h1 data-aos="fade-down" data-aos-duration="1500" id="daftar">Cara Daftar</h1>
         <p>Kamu cukup traktir aku ngopi di café 3 hari deh Sambil aku sharing skill Public Speaking</p>
         <!-- <p>
           Dari kamu diajarin gimana cara upgrade Public Speaking sampe kamu dapetin kesempatan buat konsultasi Public Speaking. Kamu bakal dibimbing gimana caranya bisa percaya diri dan ningkatin Public Speaking. Pokoknya dengan harga
@@ -585,19 +284,6 @@
 
     <footer class="text-center text-white" style="background-color: #068fff">
       <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-
-          <!-- ig -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/upgradepublicspeakingacademy/?igshid=YmMyMTA2M2Y%3D" role="button"><i class="bi bi-instagram"></i></a>
-
-          <!-- WA -->
-          <a class="btn btn-outline-light btn-floating m-1 fa-instagram" href="whatsapp://send?text=Hello&phone=+62895414438955" role="button"><i class="bi bi-whatsapp"></i></a>
-        </section>
-        <!-- Section: Social media -->
-      </div>
       <!-- Grid container -->
 
       <!-- Copyright -->
