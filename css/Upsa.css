@@ -548,6 +548,9 @@
   .pembungkusbenefit {
     margin: 0px;
   }
+    .benefit {
+    height: 50vh;
+  }
   .isibenefit {
     padding: 1px;
   }
