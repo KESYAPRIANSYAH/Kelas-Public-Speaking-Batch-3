@@ -322,10 +322,9 @@
 
 @media screen and (max-width: 1143px) {
   .home {
-    padding-top: 100px;
     text-align: center;
     color: white;
-    margin: 100px;
+
   }
   .isitujuan img {
     width: 220px;
