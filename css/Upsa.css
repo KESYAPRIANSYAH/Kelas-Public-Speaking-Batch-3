@@ -4,6 +4,7 @@
   margin: 0;
   scroll-behavior: smooth;
   font-family: "poppins",  sans-serif;
+    overflow: hidden;
 }
 .header {
   background-image: url("/img/Background_1.png");
